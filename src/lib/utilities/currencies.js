@@ -1,0 +1,18 @@
+export const currencies = [
+    { currency: "USD", name: "US Dollar" },
+    { currency: "UGX", name: "Ugandan Shilling" },
+    { currency: "KES", name: "Kenyan Shilling" },
+    { currency: "RWF", name: "Rwandan Franc" },
+    { currency: "ZWL", name: "Zimbabwean Dollar" },
+    { currency: "GHS", name: "Ghanaian Cedi" },
+    { currency: "TZS", name: "Tanzanian Shilling" },
+    { currency: "EUR", name: "Euro" },
+    { currency: "GBP", name: "British Pound" },
+    { currency: "JPY", name: "Japanese Yen" },
+    { currency: "CNY", name: "Chinese Yuan" },
+    { currency: "CHF", name: "Swiss Franc" },
+    { currency: "AUD", name: "Australian Dollar" },
+    { currency: "CAD", name: "Canadian Dollar" },
+    { currency: "HKD", name: "Hong Kong Dollar" },
+    { currency: "SGD", name: "Singapore Dollar" },
+];
