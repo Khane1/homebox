@@ -208,7 +208,7 @@
     </div>
     <div class="md:my-32 my-20 md:text-4xl text-xl font-base text-center">
         We've got something for everyone,<br />
-        join the Faith Homes family today
+        join the Homebox family today
     </div>
     <div>
         <div class="flex justify-center gap-4 mb-20">
