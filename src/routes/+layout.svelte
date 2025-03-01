@@ -16,9 +16,10 @@
 	let showMenu = false;
 </script>
 
-<div class="flex h-fit md:mx-20 mx-5">
+<div class="flex h-fit md:mx-20 mx-1">
 	<div class=" my-4 w-full">
-		<div class="flex items-center justify-between p-2 rounded">
+		<div class="fixed bg-white z-10 top-0 right-0 left-0">
+		<div class="flex items-center justify-between p-2 rounded  md:px-20  w-full "> 
 			<a href="/">
 				<div class="flex">
 					<div
@@ -133,12 +134,12 @@
 
 				<Currency bind:showModal bind:selectedCurrency />
 				<Search bind:showsearchModal />
-			</div>
+			</div></div>
 		</div>
-		<div class="mb-8"></div>
+		<div class="mb-8 pt-10"></div>
 
 		{#if ($page.url.pathname != "/" && $page.url.pathname != "/shop" && $page.url.pathname == "/home") || $page.url.pathname == "/experience" || $page.url.pathname == "/event"}
-			<div class="flex justify-center">
+			<div class="flex justify-center ">
 				<div class="grid grid-cols-4 gap-10">
 					{#each categories as { category, icon }}
 						<a href="/{category.toLowerCase()}">
